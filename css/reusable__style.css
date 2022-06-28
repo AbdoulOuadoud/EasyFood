@@ -26,6 +26,10 @@
     margin-top: 30px;
     width: 800px;
 }
+.cover__2__image{
+    margin-top: 30px;
+    width: 500px;
+}
 .main__section__wrapper{
     display: flex;
     flex-direction: column;
@@ -56,4 +60,74 @@
     right: 0;
     bottom: 50px;
     width: 80px;
+}
+.faqs__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+.faqs_title{
+    font-size: 30px;
+    text-align: center;
+}
+.faqs__wrapper .form_container{
+    width: 500px;
+}
+.questions_blocs{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.questions__box__column{
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 15px);
+    gap: 30px;
+}
+.question__box{
+    border-radius: 10px;
+    padding: 30px 40px;
+    display: flex;
+    width: 100%;
+    height: min-content;
+    gap: 20px;
+}
+
+.question__box__content{
+    flex: 1;
+}
+.unfold__icon{
+    /* border: 1px solid black; */
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.unfold__icon .icon{
+    width: 20px;
+    height: 20px;
+}
+.answer{
+    margin-top: 30px;
+    height: 0px;
+    overflow: hidden;
+    animation: question__box__animation .5s;
+}
+.question__box.active .question__box__content .answer{
+    margin-top: 30px;
+    height: max-content;
+    overflow: hidden;
+}
+@keyframes question__box__animation {
+    from {
+        height: 0;
+    }
+    to {
+        height: max-content;
+    }
 }

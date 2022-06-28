@@ -102,18 +102,15 @@
             </div>
         </div>
         <div class="footer__part__2 secondary__01__background">
-
             <div class="footer__part__2__logo">
                 <img src="../assets/logos/logo__easyFood__2.png" alt="logo__easyFood">
             </div>
-
             <div class="naviguation">
                 <a href="" class="nav__link light__color">Conditions générales d'utilisation</a>
                 <a href="" class="nav__link light__color">Newsletters</a>
                 <a href="../contact/" class="nav__link light__color">Contact</a>
-                <a href="" class="nav__link light__color">FAQs</a>
+                <a href="../faqs/" class="nav__link light__color">FAQs</a>
             </div>
-
             <div class="socials_media">
                 <a href="">
                     <span class="icon__sm social_media_facebook"></span>
@@ -128,7 +125,6 @@
                     <span class="icon__sm social_media_twitter"></span>
                 </a>
             </div>
-
         </div>
     </footer>
 </body>

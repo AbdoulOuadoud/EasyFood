@@ -273,7 +273,7 @@
                 <a href="conditions-generales-d-utilisation/" class="nav__link light__color">Conditions générales d'utilisation</a>
                 <a href="" class="nav__link light__color">Newsletters</a>
                 <a href="contact/" class="nav__link light__color">Contact</a>
-                <a href="" class="nav__link light__color">FAQs</a>
+                <a href="faqs/" class="nav__link light__color">FAQs</a>
             </div>
 
             <div class="socials_media">

@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="../assets/logos/logo__easyFood__3.png"/>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/style__contact.css">
+    <link rel="stylesheet" href="../css/contact__style.css">
+    <link rel="stylesheet" href="../css/form__style.css">
     <title>Contact | easyFood</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
             <div class="nav__links">
                 <a href="../conditions-generales-d-utilisation/" class="nav__link light__color">Conditions générales d'utilisation</a>
                 <a href="" class="nav__link light__color">Newsletters</a>
-                <a href="" class="nav__link light__color">FAQs</a>
+                <a href="../faqs/" class="nav__link light__color">FAQs</a>
             </div>
             <div class="socials_media">
                 <a href="">

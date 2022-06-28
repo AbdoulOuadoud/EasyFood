@@ -60,6 +60,9 @@ img{
     background-color: #1A7C13;
     color: #ffff;
 }
+.secondary__02__background{
+    background-color: #D0FBCD;
+}
 .secondary__01__background{
     color: #1A7C13;
 }
@@ -145,6 +148,13 @@ img{
 .phone_call{
     background-image: url("../assets/icons/phone_call.png");
 }
+.less{
+    background-image: url("../assets/icons/less.png");
+}
+.more{
+    background-image: url("../assets/icons/more.png");
+}
+
 .regular__text{
     font-size: 16px;
     font-family: "Poppins-Regular";
