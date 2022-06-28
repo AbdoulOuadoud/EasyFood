@@ -18,11 +18,8 @@
         </div>
     </header>
 
-
     <main class="main__container">
-
         <section class="cover">
-
             <div class="cover__wrapper__1 primary__background">
                 <div class="box__0 cover__wrapper">
                     <h2 class="light__color">
@@ -31,14 +28,13 @@
                     </h2>
                 </div>
             </div>
-
             <div class="cover__wrapper__2 secondary__background">
                 <div class="circle light__background">
                     <div class="circlr_wrapper">
                         <img src="assets/logos/logo__easyFood__1.png" alt="logo__easyFood">
                     </div>
                 </div>
-                <img src="assets/images/easyFood__img__01.png" alt="">
+                <img src="assets/images/easyFood__img__01.png" alt="easyFood">
                 <div class="bottom__logo">
                     <div class="bottom__logo_wrapper">
                         <img src="assets/logos/logo__easyFood__1.png" alt="logo__easyFood">
@@ -49,7 +45,6 @@
                 </a>
                 <div class="sheet secondary__background"></div>
             </div>
-
             <div class="cover__wrapper__3 secondary__background">
                 <div class="box__0 cover__wrapper">
                     <div class="logo">

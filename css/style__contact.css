@@ -23,7 +23,6 @@
 .side_naviguation .logo img{
     object-fit: contain;
 }
-
 .nav__links{
     display: flex;
     flex-direction: column;

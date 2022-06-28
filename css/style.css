@@ -56,6 +56,13 @@ img{
 .secondary__color{
     color: #77b280;
 }
+.secondary__01__background{
+    background-color: #1A7C13;
+    color: #ffff;
+}
+.secondary__01__background{
+    color: #1A7C13;
+}
 .dark__background{
     background-color: #1d1d1d;
     color: #ffff;
@@ -111,6 +118,12 @@ img{
     height: 30px;
     background-size: cover;
 }
+.icon__extra__sm{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+}
 .scroll_arrow_left{
     background-image: url("../assets/icons/scroll_arrow_left.png");
 }
@@ -128,6 +141,9 @@ img{
 }
 .social_media_twitter{
     background-image: url("../assets/icons/social_media_twitter.png");
+}
+.phone_call{
+    background-image: url("../assets/icons/phone_call.png");
 }
 .regular__text{
     font-size: 16px;
