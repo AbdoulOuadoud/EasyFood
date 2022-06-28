@@ -70,6 +70,12 @@ img{
 .light__color{
     color: #ffff;
 }
+.muted__background{
+    background-color: #EAEAEA;
+}
+.muted__color{
+    color: #EAEAEA;
+}
 .btn__lg{
     width: 200px;
     height: 50px;
@@ -122,6 +128,14 @@ img{
 }
 .social_media_twitter{
     background-image: url("../assets/icons/social_media_twitter.png");
+}
+.regular__text{
+    font-size: 16px;
+    font-family: "Poppins-Regular";
+}
+.medium__text{
+    font-size: 20px;
+    font-family: "Poppins-Medium";
 }
 .header__1{
     padding-top: 25px;
