@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/reusable__style.css">
     <link rel="stylesheet" href="../css/form__style.css">
     <link rel="icon" type="image/png" href="../assets/logos/logo__easyFood__3.png"/>
-    <title>FAQs| easyFood</title>
+    <title>FAQs | easyFood</title>
 </head>
 <body>
 <section class="section__0 secondary__background">

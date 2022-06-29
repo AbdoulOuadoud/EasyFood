@@ -154,7 +154,10 @@ img{
 .more{
     background-image: url("../assets/icons/more.png");
 }
-
+.close{
+    background-image: url("../assets/icons/close.png");
+    cursor: pointer;
+}
 .regular__text{
     font-size: 16px;
     font-family: "Poppins-Regular";

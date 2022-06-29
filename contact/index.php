@@ -40,20 +40,16 @@
             <h2 class="section__title primary__color">contactez-nous</h2>
             <form class="form_container" action="">
                 <div class="input__block">
-                    <label class="input__label medium__text" for="">Nom</label>
-                    <input class="form__input muted__background regular__text" type="text">
+                    <input class="form__input muted__background regular__text" type="text" placeholder="Nom">
                 </div>
                 <div class="input__block">
-                    <label class="input__label medium__text" for="">Email</label>
-                    <input class="form__input muted__background regular__text" type="text">
+                    <input class="form__input muted__background regular__text" type="text" placeholder="Email">
                 </div>
                 <div class="input__block">
-                    <label class="input__label medium__text" for="">Sujet</label>
-                    <input class="form__input muted__background regular__text" type="text">
+                    <input class="form__input muted__background regular__text" type="text" placeholder="Sujet">
                 </div>
                 <div class="input__block">
-                    <label class="input__label medium__text" for="">Message</label>
-                    <textarea  class="form__input muted__background regular__text" name="" id=""></textarea>
+                    <textarea  class="form__input muted__background regular__text" name="" id="" placeholder="Message"></textarea>
                 </div>
                 <div class="input__block">
                     <input class="form__input primary__background medium__text" type="submit" value="Envoyer">

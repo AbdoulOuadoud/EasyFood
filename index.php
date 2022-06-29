@@ -6,15 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="assets/logos/logo__easyFood__3.png"/>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form__style.css">
+    <link rel="stylesheet" href="css/modal__style.css">
     <title>Acceuil | easyFood</title>
 </head>
-<body>
+<body class="dark__background">
+    <section class="modal_sheet dark__background">
+    </section>
+    <section class="modal__container light__background">
+        <div class="close__modal">
+            <span class="icon__sm close" ></span>
+        </div>
+        <div class="logo">
+            <img src="assets/logos/logo__easyFood__1.png" alt="logo__easyFood">
+        </div>
+        <div class="modal__wrapper">
+            <form class="form_container" action="">
+                <div class="form__group">
+                    <div class="input__block">
+                        <!-- <label class="input__label medium__text" for="">Nom</label> -->
+                        <input class="form__input muted__background regular__text" type="text" placeholder="Nom">
+                    </div>
+
+                    <div class="input__block">
+                        <!-- <label class="input__label medium__text" for="">Prénom</label> -->
+                        <input class="form__input muted__background regular__text" type="text" placeholder="Prénom">
+                    </div>
+                </div>
+                <div class="input__block">
+                    <!-- <label class="input__label medium__text" for="">Entreprise</label> -->
+                    <input class="form__input muted__background regular__text" type="text" placeholder="Entreprise">
+                </div>
+                <div class="input__block">
+                    <!-- <label class="input__label medium__text" for="">Email</label> -->
+                    <input class="form__input muted__background regular__text" type="text" placeholder="Email">
+                </div>
+                <div class="input__block">
+                    <!-- <label class="input__label medium__text" for="">Sujet</label> -->
+                    <input class="form__input muted__background regular__text" type="text" placeholder="Sujet">
+                </div>
+                <div class="input__block">
+                    <!-- <label class="input__label medium__text" for="">Message</label> -->
+                    <textarea  class="form__input muted__background regular__text" name="" id="" placeholder="Message"></textarea>
+                </div>
+                <div class="input__block">
+                    <label class="label form__input muted__background ">
+                        <input type="file" name="image" id="">
+                        <span class="regular__text dark__color">Logo</span>
+                        <span class="regular__text light__background">Upload</span>
+                    </label>
+                </div>
+                <div class="input__block">
+                    <input class="form__input secondary__background medium__text" type="submit" value="Envoyer">
+                </div>
+            </form>
+        </div>
+    </section>
     <header class="header__1 primary__background">
         <div class = "box__0 header__1__wrapper">
             <a href="" class="logo">
                 <img src="assets/logos/logo__easyFood__2.png" alt="logo__easyFood">
             </a>
-            <button class="btn__lg secondary__background" type="button">rejoindre</button>
+            <button id="rejoin" class="btn__lg secondary__background" type="button">rejoindre</button>
         </div>
     </header>
 
@@ -293,5 +346,6 @@
 
         </div>
     </footer>
+    <script src="js/modal__script.js"></script>
 </body>
 </html>
