@@ -8,9 +8,36 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/contact__style.css">
     <link rel="stylesheet" href="../css/form__style.css">
+    <link rel="stylesheet" href="../css/popup__style.css">
+
     <title>Contact | easyFood</title>
 </head>
 <body>
+    <section class="popup_sheet dark__background">
+    </section>
+    <section class="popup__container light__background">
+        <div class="close__modal">
+            <span id="close__popup" class="icon__sm close"></span>
+        </div>
+        <div class="popup__image">
+            <img src="../assets/images/newsletter.png" alt="easyFood">
+        </div>
+        <div class="popup__content">
+            <p class="popup__title medium__text">Subscribe to our newsletter</p>
+            <p class="popup__title regular__text">
+                Recevez de nouveaux articles et ressources directement dans 
+                votre boîte de réception. Remplissez votre email ci-dessous 
+                pour vous inscrire à notre newsletter dès aujourd'hui.
+            </p>
+            <form action="" class="form_container">
+                <div class="form__popup">
+                    <input class="regular__text input__popup" type="text" placeholder="Entrez votre e-mail">
+                    <input class="regular__text primary__background btn__popup" type="submit" value="Souscrire">
+                </div>
+            </form>
+        </div>
+    </section>
+
     <section class="contact">
         <nav class="side_naviguation primary__background">
             <a href="../" class="logo">
@@ -18,7 +45,7 @@
             </a>
             <div class="nav__links">
                 <a href="../conditions-generales-d-utilisation/" class="nav__link light__color">Conditions générales d'utilisation</a>
-                <a href="" class="nav__link light__color">Newsletters</a>
+                <span id="newsletter" class="nav__link light__color">Newsletters</span>
                 <a href="../faqs/" class="nav__link light__color">FAQs</a>
             </div>
             <div class="socials_media">
@@ -56,6 +83,7 @@
                 </div>
             </form>
         </main>
+        <script src="../js/popup__script.js"></script>
     </section>
 </body>
 </html>

@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/form__style.css">
     <link rel="stylesheet" href="css/modal__style.css">
+    <link rel="stylesheet" href="css/popup__style.css">
     <title>Acceuil | easyFood</title>
 </head>
-<body class="dark__background">
+<body>
     <section class="modal_sheet dark__background">
     </section>
     <section class="modal__container light__background">
@@ -62,6 +63,7 @@
             </form>
         </div>
     </section>
+
     <header class="header__1 primary__background">
         <div class = "box__0 header__1__wrapper">
             <a href="" class="logo">
@@ -303,6 +305,32 @@
     </main>
 
     <footer class="footer">
+
+        <section class="popup_sheet dark__background">
+        </section>
+        <section class="popup__container light__background">
+            <div class="close__modal">
+                <span id="close__popup" class="icon__sm close"></span>
+            </div>
+            <div class="popup__image">
+                <img src="assets/images/newsletter.png" alt="easyFood">
+            </div>
+            <div class="popup__content">
+                <p class="popup__title medium__text">Subscribe to our newsletter</p>
+                <p class="popup__title regular__text">
+                    Recevez de nouveaux articles et ressources directement dans 
+                    votre boîte de réception. Remplissez votre email ci-dessous 
+                    pour vous inscrire à notre newsletter dès aujourd'hui.
+                </p>
+                <form action="" class="form_container">
+                    <div class="form__popup">
+                        <input class="regular__text input__popup" type="text" placeholder="Entrez votre e-mail">
+                        <input class="regular__text primary__background btn__popup" type="submit" value="Souscrire">
+                    </div>
+                </form>
+            </div>
+        </section> 
+    
         <div class="footer__part__1 primary__background">
             <div class="box__0 footer__part__1__wrapper">
                 <h2 class="footer__part__1__title light__color">Téléchargez gratuitement EasyFood Gether </h2>
@@ -324,7 +352,7 @@
 
             <div class="naviguation">
                 <a href="conditions-generales-d-utilisation/" class="nav__link light__color">Conditions générales d'utilisation</a>
-                <a href="" class="nav__link light__color">Newsletters</a>
+                <span id="newsletter" class="nav__link light__color">Newsletters</span>
                 <a href="contact/" class="nav__link light__color">Contact</a>
                 <a href="faqs/" class="nav__link light__color">FAQs</a>
             </div>
@@ -347,5 +375,6 @@
         </div>
     </footer>
     <script src="js/modal__script.js"></script>
+    <script src="js/popup__script.js"></script>
 </body>
 </html>

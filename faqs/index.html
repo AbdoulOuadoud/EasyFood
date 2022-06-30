@@ -7,11 +7,58 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/reusable__style.css">
     <link rel="stylesheet" href="../css/form__style.css">
+    <link rel="stylesheet" href="../css/modal__style.css">
+    <link rel="stylesheet" href="../css/popup__style.css">
     <link rel="icon" type="image/png" href="../assets/logos/logo__easyFood__3.png"/>
     <title>FAQs | easyFood</title>
 </head>
 <body>
-<section class="section__0 secondary__background">
+    <section class="modal_sheet dark__background">
+    </section>
+    <section class="modal__container light__background">
+        <div class="close__modal">
+            <span class="icon__sm close" ></span>
+        </div>
+        <div class="logo">
+            <img src="../assets/logos/logo__easyFood__1.png" alt="logo__easyFood">
+        </div>
+        <div class="modal__wrapper">
+            <form class="form_container" action="">
+                <div class="form__group">
+                    <div class="input__block">
+                        <input class="form__input muted__background regular__text" type="text" placeholder="Nom">
+                    </div>
+                    <div class="input__block">
+                        <input class="form__input muted__background regular__text" type="text" placeholder="Prénom">
+                    </div>
+                </div>
+                <div class="input__block">
+                    <input class="form__input muted__background regular__text" type="text" placeholder="Entreprise">
+                </div>
+                <div class="input__block">
+                    <input class="form__input muted__background regular__text" type="text" placeholder="Email">
+                </div>
+                <div class="input__block">
+                    <input class="form__input muted__background regular__text" type="text" placeholder="Sujet">
+                </div>
+                <div class="input__block">
+                    <textarea  class="form__input muted__background regular__text" name="" id="" placeholder="Message"></textarea>
+                </div>
+                <div class="input__block">
+                    <label class="label form__input muted__background ">
+                        <input type="file" name="image" id="">
+                        <span class="regular__text dark__color">Logo</span>
+                        <span class="regular__text light__background">Upload</span>
+                    </label>
+                </div>
+                <div class="input__block">
+                    <input class="form__input secondary__background medium__text" type="submit" value="Envoyer">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="section__0 secondary__background">
         <div class="box__0 section__0__wrapper">
             <span class="regular__text">Accéder au support &nbsp;&nbsp;| </span>
             <a class="phone__call__infos"href="tel:+22900000000">
@@ -25,7 +72,7 @@
             <a href="../" class="logo">
                 <img src="../assets/logos/logo__easyFood__2.png" alt="logo__easyFood">
             </a>
-            <button class="btn__lg secondary__background" type="button">rejoindre</button>
+            <button id="rejoin" class="btn__lg secondary__background" type="button">rejoindre</button>
         </div>
     </header>
     <main>
@@ -240,6 +287,31 @@
         </section>
     </main>
     <footer class="footer">
+        <section class="popup_sheet dark__background">
+        </section>
+        <section class="popup__container light__background">
+            <div class="close__modal">
+                <span id="close__popup" class="icon__sm close"></span>
+            </div>
+            <div class="popup__image">
+                <img src="../assets/images/newsletter.png" alt="easyFood">
+            </div>
+            <div class="popup__content">
+                <p class="popup__title medium__text">Subscribe to our newsletter</p>
+                <p class="popup__title regular__text">
+                    Recevez de nouveaux articles et ressources directement dans 
+                    votre boîte de réception. Remplissez votre email ci-dessous 
+                    pour vous inscrire à notre newsletter dès aujourd'hui.
+                </p>
+                <form action="" class="form_container">
+                    <div class="form__popup">
+                        <input class="regular__text input__popup" type="text" placeholder="Entrez votre e-mail">
+                        <input class="regular__text primary__background btn__popup" type="submit" value="Souscrire">
+                    </div>
+                </form>
+            </div>
+        </section> 
+
         <div class="footer__part__1 primary__background">
             <div class="box__0 footer__part__1__wrapper">
                 <h2 class="footer__part__1__title light__color">Téléchargez gratuitement EasyFood Gether </h2>
@@ -261,7 +333,7 @@
 
             <div class="naviguation">
                 <a href="../conditions-generales-d-utilisation/" class="nav__link light__color">Conditions générales d'utilisation</a>
-                <a href="" class="nav__link light__color">Newsletters</a>
+                <span id="newsletter" class="nav__link light__color">Newsletters</span>
                 <a href="../contact/" class="nav__link light__color">Contact</a>
                 <a href="" class="nav__link light__color">FAQs</a>
             </div>
@@ -284,6 +356,7 @@
         </div>
     </footer>
     <script src="../js/faqs__script.js"></script>
-    
+    <script src="../js/modal__script.js"></script>
+    <script src="../js/popup__script.js"></script>
 </body>
 </html>
