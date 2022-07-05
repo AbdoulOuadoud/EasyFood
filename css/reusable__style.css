@@ -134,7 +134,9 @@
 
 }
 @media (max-width: 640px){
-
+    .question__box {
+        padding: 20px 30px;
+    }
     .cover__1__image {
         width: 400px;
     }
