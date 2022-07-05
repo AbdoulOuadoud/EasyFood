@@ -69,6 +69,9 @@ body.active{
     .modal__content , .modal__wrapper{
         width: 100%;
     }
+    .modal__content {
+        height: 500px;
+    }
 }
 @media (max-width: 640px){
     .modal__container {
@@ -82,5 +85,8 @@ body.active{
     .label span:last-child {
         padding: 7px 20px;
         border-radius: 10px;
+    }
+    .modal__content {
+        height: 500px;
     }
 }
