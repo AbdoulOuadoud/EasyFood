@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="../css/contact__style.css">
     <link rel="stylesheet" href="../css/form__style.css">
     <link rel="stylesheet" href="../css/popup__style.css">
-
     <title>Contact | easyFood</title>
 </head>
 <body>
@@ -32,23 +31,28 @@
             <form action="" class="form_container">
                 <div class="form__popup">
                     <input class="regular__text input__popup" type="text" placeholder="Entrez votre e-mail">
-                    <input class="regular__text primary__background btn__popup" type="submit" value="Souscrire">
+                     <button class="regular__text primary__background btn__popup" type="submit" value="Souscrire">
+                        <span class="regular__text">Souscrire</span>
+                        <span class="icon__extra__sm send"></span>
+                    </button>
                 </div>
             </form>
         </div>
     </section>
-
     <section class="contact">
-        <nav class="side_naviguation primary__background">
-            <a href="../" class="logo">
+        <nav id="side_naviguation" class="side_naviguation primary__background">
+            <div id="menu__container" class="menu">
+                <span id="menu" class="icon__light_sm menu__open"></span>
+            </div>
+            <a href="../" class="logo side__nav__item">
                 <img src="../assets/logos/logo__easyFood__2.png" alt="logo__easyFood">
             </a>
-            <div class="nav__links">
+            <div class="nav__links side__nav__item">
                 <a href="../conditions-generales-d-utilisation/" class="nav__link light__color">Conditions générales d'utilisation</a>
                 <span id="newsletter" class="nav__link light__color">Newsletters</span>
                 <a href="../faqs/" class="nav__link light__color">FAQs</a>
             </div>
-            <div class="socials_media">
+            <div class="socials_media side__nav__item">
                 <a href="">
                     <span class="icon__sm social_media_linkedin"></span>
                 </a>
@@ -84,6 +88,7 @@
             </form>
         </main>
         <script src="../js/popup__script.js"></script>
+        <script src="../js/menu__script.js"></script>
     </section>
 </body>
 </html>

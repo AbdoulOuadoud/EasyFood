@@ -130,3 +130,41 @@
         height: max-content;
     }
 }
+@media (max-width: 648px){
+    .cover__1__image {
+        width: 400px;
+    }
+    .vector__1 {
+        width: 40px;
+    }
+    .vector__3 {
+        width: 80px;
+    }
+    .vector__4 {
+        width: 40px;
+    }
+    .vector__2 {
+        right: 150px;
+        width: 70px;
+    }
+    .cover__2__image {
+        width: 300px;
+    }
+    .faqs_title {
+        font-size: 25px;
+    }
+    .faqs__wrapper .form_container {
+        width: 100%;
+    }
+    .questions_blocs {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .questions__box__column {
+        width: 100%;
+        gap: 20px;
+    }
+    .faqs__wrapper {
+        gap: 30px;
+    }
+}
