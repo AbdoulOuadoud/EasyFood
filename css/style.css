@@ -117,8 +117,8 @@ img{
 }
 .icon__light_sm{
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background-size: cover;
 }
 .icon__sm{
