@@ -50,7 +50,11 @@ label.label input[type="file"] {
     padding: 10px 20px;
     border-radius: 10px;
 }
-@media (max-width: 648px){
+@media (max-width: 1024px){
+
+}
+@media (max-width: 640px){
+
     .form__input {
         height: 50px;
         padding: 15px;

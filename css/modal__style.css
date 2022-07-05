@@ -57,11 +57,10 @@ body.active{
 #rejoin{
     cursor: pointer;
 }
-@media (max-width: 648px){
+@media (max-width: 1024px){
     .modal__container {
-        width: 90%;
-        padding: 30px;
-        gap: 20px;
+        width: 70%;
+        padding: 30px 50px;
     }
     .form_container {
         width: 100%;
@@ -69,6 +68,13 @@ body.active{
     }
     .modal__content , .modal__wrapper{
         width: 100%;
+    }
+}
+@media (max-width: 640px){
+    .modal__container {
+        width: 90%;
+        padding: 30px;
+        gap: 20px;
     }
     .modal__content .logo {
         width: 150px;

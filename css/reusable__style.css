@@ -130,7 +130,11 @@
         height: max-content;
     }
 }
-@media (max-width: 648px){
+@media (max-width: 1024px){
+
+}
+@media (max-width: 640px){
+
     .cover__1__image {
         width: 400px;
     }

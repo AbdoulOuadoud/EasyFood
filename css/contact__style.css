@@ -6,16 +6,14 @@
 .contact .side_naviguation{
     width: 35%;
     height: 100%;
-}
-.contact__wrapper{
-    width: 60%;
-    height: 100%;
-}
-.side_naviguation{
     display: flex;
     flex-direction: column;
     gap: 80px;
     padding: 50px 0px 50px 100px;
+}
+.contact__wrapper{
+    width: 60%;
+    height: 100%;
 }
 .side_naviguation .logo{
     width: 300px;
@@ -41,7 +39,31 @@
 .contact__wrapper .section__title{
     text-align: left;
 }
-@media (max-width: 648px){
+@media (max-width: 1024px){
+    .contact .side_naviguation {
+        width: 35%;
+        padding: 50px 0px 50px 50px;
+    }
+    .side_naviguation .logo {
+        width: 200px;
+    }
+    .section__title {
+        font-size: 30px;
+    }
+    .contact__wrapper {
+        width: 65%;
+        height: 100%;
+        padding: 50px;
+    }
+    .side__nav__item a .icon__sm{
+        width: 20px;
+        height: 20px;
+    }
+    .medium__text {
+        font-size: 16px;
+    }
+}
+@media (max-width: 640px){
     .contact .side_naviguation {
         padding: 40px 0;
         position: fixed;
