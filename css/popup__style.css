@@ -60,10 +60,11 @@
 }
 .form__popup{
     border-radius: 50px ;
-    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
     padding: 10px 25px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 20px;
     width: 100%;
 }
@@ -94,8 +95,8 @@
         width: 100%;
     }
     .popup__container {
-       width: 90%;
-       padding: 30px;
+        width: 90%;
+        padding: 30px;
     }
     .popup__image {
         width: 100px;
@@ -107,11 +108,9 @@
     }
     .form__popup {
         padding: 10px 15px;
-        display: flex;
-        gap: 10px;
-        justify-content: space-between;
     }
     .input__popup {
+        width: 150px;
         padding: 0;
     }
     .btn__popup{

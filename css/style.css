@@ -599,7 +599,7 @@ img{
         width: calc(100% - 300px);
     }
     .card__image{
-       width: max-content;
+        width: max-content;
     }
     .statistics__block__2 {
         display: none;
@@ -684,19 +684,19 @@ img{
         font-size: 25px;
     }
     .cover__wrapper h2 {
-        font-size: 20px;
+        font-size: 25px;
     }
     .cover__wrapper__2 {
         height: 400px;
         width: 100%;
-        top: 45%;
+        top: 50%;
         transform: translate(50%,-50%);
     }
     .cover__wrapper__3 .cover__wrapper {
         margin-bottom: 30px;
     }
     .cover__wrapper__1 {
-        height: 400px;
+        height: 500px;
     }
     .cover__wrapper__3 {
         height: 400px;
