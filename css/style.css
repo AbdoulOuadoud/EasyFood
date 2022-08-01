@@ -63,7 +63,11 @@ img{
 .secondary__02__background{
     background-color: #D0FBCD;
 }
-.secondary__01__background{
+.secondary__03__background{
+    background-color: #D2F5D0;
+    color: #0000;
+}
+.secondary__01__color{
     color: #1A7C13;
 }
 .dark__background{
@@ -117,8 +121,8 @@ img{
 }
 .icon__light_sm{
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background-size: cover;
 }
 .icon__sm{
@@ -157,15 +161,35 @@ img{
 .less{
     background-image: url("../assets/icons/less.png");
 }
+.email{
+    background-image: url("../assets/icons/email.png");
+}
 .more{
     background-image: url("../assets/icons/more.png");
+    cursor: pointer;
 }
 .close{
     background-image: url("../assets/icons/close.png");
     cursor: pointer;
 }
+.completed{
+    background-image: url("../assets/icons/completed.png");
+    cursor: pointer;
+}
+.checked{
+    background-image: url("../assets/icons/checked.png");
+    cursor: pointer;
+}
 .menu__close{
     background-image: url("../assets/icons/menu__close.png");
+    cursor: pointer;
+}
+.credit_card{
+    background-image: url("../assets/icons/credit_card.png");
+    cursor: pointer;
+}
+.cancel{
+    background-image: url("../assets/icons/cancel.png");
     cursor: pointer;
 }
 .menu__open{
@@ -1009,4 +1033,56 @@ img{
     .medium__text {
         font-size: 16px;
     }
+}
+input[type="checkbox"] {
+   display: none;
+}
+input[type="radio"] {
+   display: none;
+}
+.checkbox__wrapper{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.check , .radio{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.check:hover{
+    background-color: #EAEAEA;
+    border: none;
+}
+input[type="checkbox"]:checked + label .checked , input[type="radio"]:checked + label.radio span {
+    display: block;
+    /* border: 1px solid black; */
+}
+input[type="checkbox"]:checked + label{
+    background-color: #77b280;
+    border: none;
+}
+input[type="checkbox"] + label .checked , input[type="radio"] + label.radio span{
+    display: none;
+}
+.radio{
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.radio__iteme{
+    display: flex;
+    gap: 10px;
+}
+.radio span{
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: #77b280;
+    border-radius: 50%;
 }
