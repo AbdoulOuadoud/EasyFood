@@ -1,5 +1,6 @@
 .fud__header{
-
+    /* border: 1px solid black; */
+    margin-bottom: 50px;
 }
 .fud__nav .logo{
     display: flex;
@@ -138,6 +139,7 @@
 }
 .check__2 .regular__text{
     font-size: 15px;
+    flex: 1;
 }
 .fdu__input__grp .icon__light_sm {
     margin: 0px  0px 0px  20px;
@@ -201,6 +203,7 @@
 }
 .step3__label{
     width: 40%;
+    /* border: 1px solid black !important; */
 }
 .label__1{
     font-size: 14px;
@@ -225,7 +228,7 @@
     text-align: center;
     border: 1px solid EAEAEA;
 }
-.step3__input__grp:last-child .fdu__input__grp  .step3__label{
+.step3__input__grp:last-child .fdu__input__grp  .stp__label{
     width: fit-content;
     /* border: 1px solid black; */
 }
@@ -239,6 +242,9 @@
     background-color: transparent;
     border: none;
 }
+.fdu__infos__wrapper .medium__text{
+    font-size: 30px;
+}
 .step__content:last-child{
     justify-content: center;
     gap: 30px;
@@ -247,7 +253,7 @@
     /* border: 1px solid black; */
 }
 .fdu__infos{
-    width: 650px;
+    width: 700px;
     display: flex;
     justify-content: end;
     border: 3px solid #EAEAEA;
@@ -255,7 +261,7 @@
     background-color: #1bb66e17;
 }
 .fdu__infos__wrapper{
-    width: 60%;
+    width: 70%;
     display: flex;
     gap: 20PX;
     flex-direction: column;
@@ -278,8 +284,91 @@
     border: none;
     color: black;
 }
-
 .cancel__btn button{
     border: 1px solid black;
-    
+}
+@media (max-width: 1024px){
+    .fud__title h3 {
+        font-size: 25px;
+    }
+}
+@media (max-width: 640px){
+
+    .step__line {
+        width: 30px;
+    }
+
+    .fud__wrapper {
+        /* border: 1px solid black; */
+        flex-direction: column;
+    }
+    .fud__nav {
+        display: flex;
+        justify-content: center;
+    }
+    .fud__nav .logo{
+        width: 150px;
+    }
+    .fud__img {
+        width: 100%;
+    }
+    .fud__title{
+        width: 100%;
+        height: 100px;
+    }
+    .fud__title h3 {
+        font-size: 20px;
+    }
+    .amounts .regular__text {
+        width: 60px;
+    }
+    .fdu__form {
+        width: 330px;
+    }
+    .step__text {
+        font-size: 12px;
+    }
+    .fdu__infos {
+        width: 300px;
+    }
+    .fdu__infos__wrapper {
+        width: 100%;
+    }
+    .fdu__infos__wrapper .medium__text {
+        font-size: 25px;
+    }
+    .step__3 {
+        width: 100%;
+        border: 3px solid #EAEAEA;
+        border-radius: 10px;
+        display: flex;
+        gap: 20PX;
+        flex-direction: column;
+        padding: 20px;
+        background-color: #1bb66e17;
+    }
+    .step__3 .step3__input__grp{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .step__3 .step3__input__grp .step3__label {
+        width: 85%;
+        /* order: 1; */
+        /* border: 1px solid black; */
+    }
+    .step__3 .step3__input__grp .fdu__input__grp {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .valide__btn{
+        width: 15%;
+        /* border: 1px solid black; */
+    }
+    .step__3 .step3__input__grp .fdu__input__grp {
+        order: 3;
+    }
+    .step__3 .step3__input__grp .valide__btn {
+        order: 2;
+    }
+
 }
