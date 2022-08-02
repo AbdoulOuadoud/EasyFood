@@ -1087,3 +1087,6 @@ input[type="checkbox"] + label .checked , input[type="radio"] + label.radio span
     background-color: #77b280;
     border-radius: 50%;
 }
+select{
+    background-color: transparent;
+}

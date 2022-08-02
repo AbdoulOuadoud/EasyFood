@@ -293,11 +293,14 @@
     }
 }
 @media (max-width: 640px){
-
+    .amounts {
+        width: 100%;
+        justify-content: space-between;
+        gap: 0;
+    }
     .step__line {
         width: 30px;
     }
-
     .fud__wrapper {
         /* border: 1px solid black; */
         flex-direction: column;
@@ -323,7 +326,7 @@
         width: 60px;
     }
     .fdu__form {
-        width: 330px;
+        width: 100%;
     }
     .step__text {
         font-size: 12px;
@@ -369,6 +372,15 @@
     }
     .step__3 .step3__input__grp .valide__btn {
         order: 2;
+    }
+    .fud__header .step__content:nth-child(3) .step__3 .step3__input__grp:last-child .fdu__input__grp .stp_label{
+        /* border: 1px solid black; */
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .fud__header .step__content:nth-child(3) .step__3 .step3__input__grp:last-child .fdu__input__grp .stp_label .label__2{
+        display: none;
     }
 
 }
