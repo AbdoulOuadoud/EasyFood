@@ -21,7 +21,7 @@ function animation__luncher(elementsToAnime , animation){
 
         const topElementToTopViewport = element.getBoundingClientRect().top;
 
-        if (scrollTop > (scrollTop + topElementToTopViewport).toFixed() - clientHeight * 0.9){
+        if (scrollTop > (scrollTop + topElementToTopViewport).toFixed() - clientHeight * 0.95){
             element.classList.add(animation)
         }
     }
